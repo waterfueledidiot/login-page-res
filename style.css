@@ -8,14 +8,14 @@ body{
     font-size: larger;
 }
 #form{
-    margin: 10vw;
+    margin: 5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ff597a4f;
     border-radius: 2rem;
-    padding: 1rem;
+    padding: clamp(0.6rem,0.8rem,1.2rem);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     transition: all .4s ease-in-out;
 }
@@ -35,7 +35,7 @@ body{
 .input{
     border-radius: 1rem;
     border: 0;
-    padding: 1.3vh;
+    padding: 1.2vh;
     background-color: #ffc3a1;
     outline: none;
 }
